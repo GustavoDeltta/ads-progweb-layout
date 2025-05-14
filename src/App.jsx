@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Header from "./components/header/header";
 import Card from "./components/cards/card";
-import imagesPool from "./images/imagesPool";
+import imagesPool from "./assets/images/imagesPool";
 
 function App() {
   const [users, setUsers] = useState([]);
